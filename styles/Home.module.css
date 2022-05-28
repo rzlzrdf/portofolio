@@ -19,13 +19,15 @@
 }
 
 .hero_image{
-  margin-top: 12vh;
+  position: relative;
+  top: 20%;
+  left: 15%;
   width: 90%;
 }
 
 .down  {
   position: relative;
-  top: 20%;
+  top: 13%;
   left: 50%;
 }
 
