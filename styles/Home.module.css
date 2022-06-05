@@ -1,34 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Monoton&family=Rubik+Mono+One&display=swap');
+
 .container {
   padding: 0 2rem;
+}
+.hero1_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 80vh;
 }
 
 .title{
   margin-top: 25vh;
-  font-size: 10vh;
+  font-size: 6rem;
+  /* font-family: 'Cutive Mono', monospace; */
 }
+
+
+.title a{
+  text-decoration: none;
+  color: #292b2c;
+}
+
 
 .subtitle1{
   margin-top: 12px;
   color: grey;
-  font-size: 5vh;
+  font-size: 2.6rem;
+  font-weight: 400;
+  /* font-family: 'Cutive Mono', monospace; */
+}
+
+.subtitle1 span{
+  color: tomato;
+  font-weight:720;
 }
 
 .name{
   font-size: medium;
-  color: green;
+  color: rgb(27, 27, 27);
+  /* font-family: 'Cutive Mono', monospace; */
+}
+.btnCvWrapper{
+  position: relative;
+  height: 20%;
+}
+
+.btnCv{
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  border-color: #292b2c;
+  color: #292b2c;
+  border-radius: 20px;
+  font-weight: 300;
+}
+
+
+.btnCv:hover{
+  background-color: tomato;
+  color: white;
+  border-color: tomato;
+  box-shadow: none;
+}
+.btnCv:focus{
+  box-shadow: none;
+}
+.btnCv:active{
+  top: 51%;
+}
+
+
+.imgWrapper{
+  position: relative;
+  height: 85vh;
+  width: auto;
 }
 
 .hero_image{
-  position: relative;
-  top: 20%;
-  left: 15%;
-  width: 90%;
+  position: absolute;
+  height: 80%;
+  left: 0;
+  bottom: 0;
 }
 
-.down  {
-  position: relative;
-  top: 8%;
-  left: 50%;
+
+.hero2_container{
+  height: 100vh;
+}
+
+.hero2{
+  color: #fefefe;
+}
+
+.hero2 h3{
+  margin-top: 100px;
+  
+}
+
+.hero2 h1{
+  margin-top: 70px;
+}
+
+.hero2 p{
+  margin-top: 15px;
+  text-align: justify;
 }
 
 @media (max-width: 600px) {

@@ -1,12 +1,20 @@
 .container_nav{
 
-    background-color: rgba(255, 255, 255, 0.8); 
+    background-color: transparent; 
     color: rgba(255, 255, 255, 0.5);
     
 }
 
 .nav_bar{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
     font-size: 1.1em;
+}
+
+.nav_barItem{
+    font-weight: 400;
+}
+
+.nav_barItem:hover{
+    color: tomato !important;
+    font-weight: 600;
+
 }
